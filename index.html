@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ESTILOS DE CSS-->
+    <link rel="stylesheet" href="estilos.css">
+    <!--BOXICONS-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Buscador de Películas P1</title>
+</head>
+<body>
+    <main class="movies-app">
+        <div class="movies-app__form-container">
+            <h2 class="movies-app__form-container__title">Buscador de Películas</h2>
+            <div class="movies-app__form-container__input-box">
+                <input type="text" class="input-box__input" id="inputSearch" placeholder="Ingresa el nombre de la película...">
+                <button class="input-box__button" id="buttonSearch">Buscar<i class='bx bx-search-alt'></i></button>
+            </div>
+        </div>
+        <section class="movies-app__movie-list" id="movieList">
+            <!-- Los resultados se insertan aquí -->
+            <article class="movie-list__card">
+                <div class="card__img">
+                    <img src="" alt="">
+                    <div class="card__title-box">
+                        <h4 class="card__movie-title"></h4>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- SCRIPT INDEX.JS -->
+     <script src="index.js"></script>
+</body>
+</html>
